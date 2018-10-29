@@ -19,6 +19,6 @@ install:
 
 after_success:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-- docker pull oxyl/grpclb_test:latest
-- docker build -t oxyl/grpclb_test:latest .
-- docker push oxyl/grpclb_test:latest
+- docker pull oxyl/grpc-lb:test
+- docker build -t oxyl/grpc-lb:test .
+- docker push oxyl/grpc-lb:test
