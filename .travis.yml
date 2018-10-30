@@ -16,6 +16,6 @@ install:
 
 after_success:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-- docker pull oxyl/grpc-lb:nodejs
-- docker build -t oxyl/grpc-lb:nodejs .
-- docker push oxyl/grpc-lb:nodejs
+- docker pull oxyl/grpc-lb:server
+- docker build -t oxyl/grpc-lb:server .
+- docker push oxyl/grpc-lb:server
