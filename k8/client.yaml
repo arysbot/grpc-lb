@@ -24,6 +24,7 @@ spec:
       containers:
       - name: server
         image: oxyl/grpc-lb:test
+        imagePullPolicy: Always
         ports:
         - containerPort: 9000
         env:
