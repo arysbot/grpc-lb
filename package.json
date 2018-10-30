@@ -1,7 +1,22 @@
 {
-  "name": "grpclb_test",
+  "name": "grpc-lb",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxylbot/grpc-lb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oxylbot/grpc-lb/issues"
+  },
   "dependencies": {
     "grpc": "^1.15.1"
-  }
+  },
+  "homepage": "https://github.com/oxylbot/grpc-lb#readme"
 }
