@@ -28,9 +28,6 @@ spec:
       containers:
       - name: server
         image: oxyl/grpc-lb:test
-        metadata:
-          labels:
-            app: server
         ports:
         - containerPort: 9000
         env:
