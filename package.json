@@ -18,5 +18,6 @@
   "dependencies": {
     "grpc": "^1.15.1"
   },
+  "start":"node index.js",
   "homepage": "https://github.com/oxylbot/grpc-lb#readme"
 }
