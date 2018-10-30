@@ -28,6 +28,6 @@ spec:
         - containerPort: 9000
         env:
         - name: RPC_PORT
-          value: 9000
+          value: "9000"
         - name: RPC_HOST
           value: "server.default.svc.cluster.local"
