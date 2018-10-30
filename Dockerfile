@@ -4,10 +4,6 @@ ARG RPC_TYPE
 
 ENV RPC_TYPE=${RPC_TYPE}
 
-COPY . /app
-
-WORKDIR /app
-
 RUN npm install
 
 CMD ["node", "index.js"]
