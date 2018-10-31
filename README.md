@@ -13,7 +13,7 @@
 
 ### When you want to test your client
 + check that travis build pass and docker image is pushed to your language tag
-+ start minikube
++ head to https://www.katacoda.com/courses/kubernetes/playground
 + get `k8/server.yaml` from the `server` branch
 + get `k8/client.yaml` from your branch
 + `kubectl apply -f server.yaml`
