@@ -2,7 +2,7 @@ const grpc = require('grpc');
 const path = require('path');
 const os = require('os');
 
-const protoPath = path.join(__dirname, '../node_modules/protofiles/src/Logger.proto');
+const protoPath = path.join(__dirname, '../node_modules/@arys/protofiles/src/Logger.proto');
 const proto = grpc.load(protoPath);
 
 let server;

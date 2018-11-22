@@ -16,8 +16,8 @@
     "url": "https://github.com/oxylbot/grpc-lb/issues"
   },
   "dependencies": {
+    "@arys/protofiles": "^1.0.0",
     "grpc": "^1.15.1",
-    "protofiles": "github:arysbot/protofiles"
   },
   "homepage": "https://github.com/oxylbot/grpc-lb#readme"
 }
